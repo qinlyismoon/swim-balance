@@ -2,6 +2,8 @@
 
 Swim Balance is a working SwiftUI prototype created for the Palantir Product Design Show & Tell. It helps me turn long-term swimming goals, limited daily time, and completed workout data into a realistic plan for the next swim.
 
+![Swim Balance: plan, swim, reflect](docs/media/hero.png)
+
 **Video walkthrough:** https://www.youtube.com/watch?v=OFN8XVHJ8wQ
 
 ## The problem
@@ -13,6 +15,10 @@ My Apple Watch records what happened in each swim (distance, time, pace, strokes
 1. **Plan** — set the strokes I swim, what I'm working on, my usual time and swim days. The app builds a week of sessions that fit.
 2. **Swim** — each session is laid out as colour-keyed stages. If I have more or less time on a given day, I change it and the session rebalances around the focus stroke.
 3. **Reflect & adjust** — after a swim I get a short takeaway and one next step. Two quick questions (how hard it felt, why I stopped) shape that suggestion. History shows each week against its target.
+
+| Plan | Swim | Reflect |
+| --- | --- | --- |
+| ![Plan](docs/media/plan.gif) | ![Swim](docs/media/follow.gif) | ![Reflect](docs/media/reflect.gif) |
 
 ## Requirements
 
