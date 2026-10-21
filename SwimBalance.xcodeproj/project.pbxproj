@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* SwimBalanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* SwimBalanceApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* SwimModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* SwimModels.swift */; };
+		A10000000000000000000004 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* MockData.swift */; };
+		A10000000000000000000005 /* HealthKitSwimmingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* HealthKitSwimmingService.swift */; };
+		A10000000000000000000007 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* HistoryView.swift */; };
+		A10000000000000000000008 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* TodayView.swift */; };
+		A10000000000000000000009 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* SettingsView.swift */; };
+		A10000000000000000000010 /* SwimTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* SwimTheme.swift */; };
+		A10000000000000000000011 /* PlanGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* PlanGenerator.swift */; };
+		A10000000000000000000012 /* TrainingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* TrainingStore.swift */; };
+		A10000000000000000000013 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* SetupView.swift */; };
+		A10000000000000000000014 /* SwimComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* SwimComponents.swift */; };
+		A10000000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000000 /* SwimBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000001 /* SwimBalanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimBalanceApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* SwimModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* HealthKitSwimmingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSwimmingService.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* SwimTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimTheme.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* PlanGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanGenerator.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* TrainingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* SwimComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimComponents.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000000 = {isa = PBXGroup; children = (A40000000000000000000001 /* SwimBalance */, A40000000000000000000002 /* Products */); sourceTree = "<group>"; };
+		A40000000000000000000001 /* SwimBalance */ = {isa = PBXGroup; path = SwimBalance; sourceTree = "<group>"; children = (A20000000000000000000001, A20000000000000000000002, A20000000000000000000015 /* Assets.xcassets */, A40000000000000000000003 /* Models */, A40000000000000000000004 /* Data */, A40000000000000000000005 /* Services */, A40000000000000000000006 /* Features */); };
+		A40000000000000000000002 /* Products */ = {isa = PBXGroup; children = (A20000000000000000000000); name = Products; sourceTree = "<group>"; };
+		A40000000000000000000003 /* Models */ = {isa = PBXGroup; path = Models; sourceTree = "<group>"; children = (A20000000000000000000003); };
+		A40000000000000000000004 /* Data */ = {isa = PBXGroup; path = Data; sourceTree = "<group>"; children = (A20000000000000000000004, A20000000000000000000012); };
+		A40000000000000000000005 /* Services */ = {isa = PBXGroup; path = Services; sourceTree = "<group>"; children = (A20000000000000000000005, A20000000000000000000011); };
+		A40000000000000000000006 /* Features */ = {isa = PBXGroup; path = Features; sourceTree = "<group>"; children = (A40000000000000000000008, A40000000000000000000009 /* Today */, A40000000000000000000010 /* Settings */, A40000000000000000000011 /* Shared */, A40000000000000000000012 /* Setup */); };
+		A40000000000000000000008 /* History */ = {isa = PBXGroup; path = History; sourceTree = "<group>"; children = (A20000000000000000000007); };
+		A40000000000000000000009 /* Today */ = {isa = PBXGroup; path = Today; sourceTree = "<group>"; children = (A20000000000000000000008); };
+		A40000000000000000000010 /* Settings */ = {isa = PBXGroup; path = Settings; sourceTree = "<group>"; children = (A20000000000000000000009); };
+		A40000000000000000000011 /* Shared */ = {isa = PBXGroup; path = Shared; sourceTree = "<group>"; children = (A20000000000000000000010, A20000000000000000000014); };
+		A40000000000000000000012 /* Setup */ = {isa = PBXGroup; path = Setup; sourceTree = "<group>"; children = (A20000000000000000000013); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* SwimBalance */ = {isa = PBXNativeTarget; buildConfigurationList = A90000000000000000000002; buildPhases = (A70000000000000000000001, A30000000000000000000001, A70000000000000000000002); buildRules = (); dependencies = (); name = SwimBalance; productName = SwimBalance; productReference = A20000000000000000000000; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2700; LastUpgradeCheck = 2700; TargetAttributes = {A50000000000000000000001 = {CreatedOnToolsVersion = 27.0;};};}; buildConfigurationList = A90000000000000000000001; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A40000000000000000000000; projectDirPath = ""; projectRoot = ""; targets = (A50000000000000000000001); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000015); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A10000000000000000000010, A10000000000000000000011, A10000000000000000000012, A10000000000000000000013, A10000000000000000000014); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_OPTIMIZATION_LEVEL = 0; IPHONEOS_DEPLOYMENT_TARGET = 26.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		A80000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; GCC_C_LANGUAGE_STANDARD = gnu17; IPHONEOS_DEPLOYMENT_TARGET = 26.0; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; VALIDATE_PRODUCT = YES;}; name = Release; };
+		A80000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; INFOPLIST_KEY_CFBundleDisplayName = "Swim Balance"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.tsuki.SwimBalance; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1;}; name = Debug; };
+		A80000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; INFOPLIST_KEY_CFBundleDisplayName = "Swim Balance"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.tsuki.SwimBalance; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1;}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (A80000000000000000000001, A80000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A90000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (A80000000000000000000003, A80000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}
